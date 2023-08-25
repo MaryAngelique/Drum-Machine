@@ -67,7 +67,13 @@ function App() {
 
     return (
         <div className="container" id="drum-machine" onKeyDown={playAudio}>
-            
+            <h1>Drum Machine</h1>
+            <div className="whole-drum">
+                {audioClips.map((clip) => (
+                  < Drum audioClip={clip} key={clip.keyTrigger} />
+                ))}
+            </div>
+            <div id="display"></div>
         </div>
     );
 }
