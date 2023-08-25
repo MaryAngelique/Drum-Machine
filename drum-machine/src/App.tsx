@@ -66,7 +66,8 @@ function App() {
     };
 
     return (
-        <div className="container">
+        <div className="container" id="drum-machine" onKeyDown={playAudio}>
+            
         </div>
     );
 }
