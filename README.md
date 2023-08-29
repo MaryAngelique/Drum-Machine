@@ -29,6 +29,3 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
     </div>
 </body>
 </html>
-
-## CodePen Solution Link: 
-    [Random Quote Machine](https://codepen.io/maryangelique/pen/KKrONXO])
